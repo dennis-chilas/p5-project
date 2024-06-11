@@ -1,2 +1,3 @@
-download
+download/*
+!download/.gitkeep
 .DS_Store
