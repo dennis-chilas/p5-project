@@ -1,0 +1,22 @@
+{
+  "preset": "Default",
+  "closed": false,
+  "remembered": {
+    "Default": {
+      "0": {
+        "x": 638.7869389161713,
+        "y": 647.6092013440166,
+        "r": 100,
+        "color": "rgb(0,69,233)",
+        "palette": "1"
+      }
+    }
+  },
+  "folders": {
+    "Position": {
+      "preset": "Default",
+      "closed": false,
+      "folders": {}
+    }
+  }
+}
