@@ -48,6 +48,7 @@ function keyPressed() {
     }).then(response => response.json())
       .then(data => {
         console.log('Saving was successful:', data);
+        showToast();
     }).catch(error => {
         console.error('Error while saving:', error);
     });
