@@ -24,4 +24,7 @@ function prepareGUI(){
     )
 
      gui.add(vars, 'palette', palettes );
+
+    let tm_btn = { add:function(){ location.href = '/timemachine'; }};
+    gui.add(tm_btn,'add').name('Show Timemachine');
 }
