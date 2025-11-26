@@ -2,7 +2,7 @@ let pal_id;
 let main_col;
 
 async function setup() {
-  let variables = loadJSON('variables.json');
+  let variables = await loadJSON('variables.json');
   gui = new dat.GUI({load: variables, preset: "Default"});
   
   createCanvas(800, 800);
