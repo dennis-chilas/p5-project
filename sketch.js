@@ -1,13 +1,10 @@
 let pal_id;
 let main_col;
 
-function preload() {
+async function setup() {
   let variables = loadJSON('variables.json');
   gui = new dat.GUI({load: variables, preset: "Default"});
-}
-
-
-function setup() {
+  
   createCanvas(800, 800);
   prepareGUI();
   setupEnv("rnd");
